@@ -1,0 +1,126 @@
+footer {
+    padding: 45px 0;
+    background-color: #1c242a;
+}
+
+//====================================================================================================
+
+.footer__container {
+    display: flex;
+    @media (max-width: $md3+px){
+        display: block;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+._container {}
+
+.footer__column {
+  
+    &:first-child{
+        flex: 0 0 210px;
+    }
+}
+
+.footer-logo {
+
+    padding: 0px 0px 25px 0px;
+
+    img {
+        padding: 0px 0px 25px 0px;
+    }
+
+
+}
+
+.footer__content {
+    color: #bb9c66;
+    @media (max-width: $md3+px){
+        padding: 30px 0px 0px 0px;
+    }
+
+}
+
+.footer__column-full {
+    flex: 1 1 auto;
+}
+
+.footer__menu {
+    padding: 0 20px;
+}
+
+.footer__list {
+    display: flex;
+    flex-wrap: wrap;
+@media (max-width: $md3+px){
+    justify-content: center;
+}
+    li {
+        margin: 15px 15px 0 0;
+    }
+
+
+}
+
+.footer__link {
+    font-family: PFDin;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.footer__contacts {
+    padding: 12px 0 0 0;
+    text-align: right;
+
+    display: flex;
+   
+    flex-direction: column;
+   
+    align-items: flex-end;
+    @media (max-width: $md3+px){
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0px 0px 0px;
+        
+    }
+}
+
+.footer__phone {
+    white-space: nowrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    color: #bb9c66;
+    font-family: BravoRGRegular;
+    font-size: 50px;
+    text-transform: uppercase;
+
+    small {
+        margin: 2px 5px 0 0;
+        font-size: 25px;
+    }
+}
+
+.footer__callback {
+    
+    color: #bb9c66;
+    background: url(../img/icons/callback.svg) left no-repeat;
+    padding: 0 0 0 12px;
+    span{
+        border-bottom: 1px dashed;
+    }
+}
+
+//====================================================================================================
